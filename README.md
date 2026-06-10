@@ -6,7 +6,7 @@
 ![Format](https://img.shields.io/badge/format-STP-yellow)
 ![Rework](https://img.shields.io/badge/rework-BGA%20%2F%20RSX-green)
 
-![NostaJig PS3](assets/99.png)
+![NostaJig PS3](assets/99.jpeg)
 
 
 > A PS3 BGA rework jig designed to prevent board flex and 21 20 errors during RSX reflow.
