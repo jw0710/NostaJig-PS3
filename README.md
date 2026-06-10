@@ -1,5 +1,11 @@
 # NostaJig PS3
 
+![License](https://img.shields.io/badge/license-NC%20%2F%20Credit%20Required-red)
+![Material](https://img.shields.io/badge/material-1.5mm%20Steel-lightgrey)
+![Platform](https://img.shields.io/badge/platform-PS3%20Fat%20%2F%20Slim-blue)
+![Format](https://img.shields.io/badge/format-STP-yellow)
+![Rework](https://img.shields.io/badge/rework-BGA%20%2F%20RSX-green)
+
 > A PS3 BGA rework jig designed to prevent board flex and 21 20 errors during RSX reflow.
 
 ![NostaJig PS3](assets/1.png)
@@ -78,8 +84,10 @@ to stay flat.
 
 ## License
 
-Design files provided for personal and non-commercial repair use.
-Resale of manufactured jigs requires written permission from NostaMods.
+Personal and non-commercial use only.
+You may not sell this design or manufactured parts derived from it.
+If you share, modify, or redistribute this design in any form,
+you must credit NostaMods and link back to this repository.
 
 ---
 
