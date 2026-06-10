@@ -11,8 +11,6 @@
 
 > A PS3 BGA rework jig designed to prevent board flex and 21 20 errors during RSX reflow.
 
-![NostaJig PS3](assets/1.png)
-
 ---
 
 ## The Problem
@@ -32,6 +30,8 @@ This manifests as Syscon error **21 20** after rework. The jig caused it.
 ---
 
 ## NostaJig PS3
+
+![NostaJig PS3](assets/1.png)
 
 Designed from scratch to eliminate warp-induced board flex and shield the
 capacitor zone near the Cell during RSX rework.
