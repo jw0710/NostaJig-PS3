@@ -1,12 +1,12 @@
 # NostaJig PS3
 
-> A reworked version of the original PS3JIGV2wtf_are_calipers DXF. The original warps under heat. This one does not.
+> A PS3 BGA rework jig designed to prevent board flex and 21 20 errors during RSX reflow.
 
-![PS3 BGA Rework Jig](assets/1.png)
+![NostaJig PS3](assets/1.png)
 
 ---
 
-## The Problem with the PS3JIGV2wtf_Are_calipers
+## The Problem
 
 The PS3JIGV2wtf_Are_calipers is widely used for PS3 BGA rework. It has a structural flaw.
 
@@ -22,17 +22,17 @@ This manifests as Syscon error **21 20** after rework. The jig caused it.
 
 ---
 
-## This Jig
+## NostaJig PS3
 
-Designed to eliminate warp-induced board flex and shield the capacitor zone
-near the Cell during RSX rework.
+Designed from scratch to eliminate warp-induced board flex and shield the
+capacitor zone near the Cell during RSX rework.
 
 ![NEC/TOKIN shielding zone](assets/2.png)
 *The cutout geometry shields the NEC/TOKIN capacitor area from direct heater exposure*
 
 ### Improvements over PS3JIGV2wtf_Are_calipers
 
-| | PS3JIGV2wtf_Are_calipers | NostaMods Jig |
+| | PS3JIGV2wtf_Are_calipers | NostaJig PS3 |
 |---|---|---|
 | Warp under reflow temps | Present | Eliminated |
 | Board edge clamping stability | Marginal | Reinforced |
@@ -50,11 +50,8 @@ near the Cell during RSX rework.
 
 ## Files
 
-`PS3JIGV2wtf_are_calipers.DXF` - send it wherever you want. Local laser cutter,
+`PS3JIG_CALIPERS_ARE_BETTER.stp` - send it wherever you want. Local laser cutter,
 online sheet metal service, whatever. 1.5 mm steel, no special finish required.
-
-The original DXF floating around Discord is the old version with the warping issue.
-Use the file from this repo.
 
 ---
 
@@ -66,7 +63,7 @@ Use the file from this repo.
 4. Clamp per your station's procedure
 5. Run your RSX reflow profile as normal
 
-![Jig mounted in rework station](assets/4.png)
+![NostaJig PS3 mounted in rework station](assets/4.png)
 *Seated in the Honton HT-490 - board held flat across the full RSX footprint*
 
 ---
@@ -75,7 +72,7 @@ Use the file from this repo.
 
 After tracing enough post-rework 21 20 errors back to jig flex rather than
 the reflow profile, this was built to remove that variable. The board needs
-to stay flat. The PS3JIGV2wtf_Are_calipers does not guarantee that.
+to stay flat.
 
 ---
 
